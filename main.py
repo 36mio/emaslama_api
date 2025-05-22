@@ -36,6 +36,7 @@ def get_prices():
         base_price = round(xau_myr_oz / 31.1035, 2)
 
         multipliers = {
+            "999.9": 0.972,
             "999": 0.933,
             "916": 0.857,
             "835": 0.781,
